@@ -1,0 +1,37 @@
+.p-1 {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.motors {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-motors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.horizontal {
+  border: 2px solid red;
+}
+
+/* Media Query for tablets */
+@media only screen and (max-width: 768px) {
+  .motors {
+    width: 90%;
+  }
+}
+
+/* Media Query for mobile devices */
+@media only screen and (max-width: 480px) {
+  .motors {
+    width: 100%;
+  }
+}
